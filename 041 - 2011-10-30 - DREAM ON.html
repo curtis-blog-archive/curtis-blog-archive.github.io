@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DREAM ON - Adam Curtis blog archive</title>
+<style>
+:root{--ink:#1a1a1a;--muted:#6b6b6b;--line:#e2e2e2;--bg:#fff;--soft:#f5f5f5;--accent:#b80000}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:17px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif}
+a{color:#0b5cad}
+.wrap{max-width:740px;margin:0 auto;padding:0 20px}
+.site-head{background:#111;color:#fff}
+.site-head .wrap{display:flex;align-items:baseline;gap:14px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.site-head .brand{color:#fff;text-decoration:none;font-weight:700;font-size:22px;letter-spacing:.2px}
+.site-head .sub{color:#aaa;font-size:14px}
+main.wrap{padding-top:68px;padding-bottom:36px}
+.page-title{font-size:30px;line-height:1.2;margin:0 0 24px}
+.post{padding:0 0 28px;margin:0 0 32px;border-bottom:1px solid var(--line);display:flow-root}
+.body{display:flow-root}
+details.comments,.post-nav,.site-foot,.year,.home-post{clear:both}
+.post:last-of-type{border-bottom:0}
+.post h1,.post h2.post-title{font-size:30px;line-height:1.2;margin:0 0 6px}
+.post h2.post-title a{color:inherit;text-decoration:none}
+.post h2.post-title a:hover{text-decoration:underline}
+.date{color:var(--muted);font-size:14px;margin:0 0 22px}
+.body p{margin:0 0 1em}
+.body img{display:block;max-width:100%;height:auto;margin:0 0 1em}
+.body .thumb-row img{margin:0}
+.body .thumb-row{display:flex;flex-wrap:wrap;gap:8px;margin:-4px 0 1em}
+.body img.inline-thumb{display:block;padding:2px;border:1px solid var(--line);background:#fff}
+.body .component, .body span.mt-enclosure{display:block;margin:0 0 1em}
+.body blockquote{margin:0 0 1em;padding-left:16px;border-left:3px solid var(--line);color:#333}
+.note{background:var(--soft);padding:12px 16px;border-radius:4px;font-size:15px}
+details.comments{margin-top:26px}
+details.comments>summary{display:inline-block;cursor:pointer;list-style:none;user-select:none;
+ padding:8px 16px;border:1px solid #bbb;border-radius:4px;font-size:15px;background:var(--soft)}
+details.comments>summary::-webkit-details-marker{display:none}
+details.comments>summary:hover{background:#ebebeb}
+details.comments .hide{display:none}
+details.comments[open] .show{display:none}
+details.comments[open] .hide{display:inline}
+.comment-list{list-style:none;margin:18px 0 0;padding:0}
+.comment-list li{padding:12px 0;border-top:1px solid var(--line);font-size:15px}
+.comment-list .c-meta{color:var(--muted);margin:0 0 4px;font-size:13px}
+.comment-list .c-meta b{color:var(--ink)}
+.comment-list li.by-author{background:#fff8e6;padding-left:10px;padding-right:10px}
+.comment-list .c-text{overflow-wrap:anywhere}
+.post-nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;
+ border-top:1px solid var(--line);padding-top:16px;margin-top:8px;font-size:15px}
+.post-nav .next{text-align:right}
+.post-nav .all{padding:6px 14px;border:1px solid #bbb;border-radius:4px;background:var(--soft);
+ color:var(--ink);text-decoration:none;white-space:nowrap}
+.post-nav .all:hover{background:#ebebeb}
+@media (max-width:560px){.post-nav{grid-template-columns:1fr 1fr}.post-nav .all{grid-column:1/-1;justify-self:center;order:-1}}
+.site-foot{color:var(--muted);font-size:13px;padding-bottom:30px}
+footer.site-foot{padding-top:10px;margin-top:8px}
+.years a{margin-right:12px;display:inline-block}
+.year{font-size:22px;margin:34px 0 4px;padding-bottom:4px;border-bottom:2px solid var(--ink)}
+.home-post{padding:14px 0;border-bottom:1px solid var(--line)}
+.home-post h3{font-size:20px;line-height:1.3;margin:0}
+.home-post h3 a{color:inherit;text-decoration:none}
+.home-post h3 a:hover{text-decoration:underline}
+.home-post .date{margin:2px 0 6px}
+.home-post .excerpt{margin:0 0 4px;font-size:16px;color:#333}
+.home-post .extras{color:var(--muted);font-size:13px;margin:0}
+table{border-collapse:collapse;width:100%;font-size:15px}
+td,th{border-bottom:1px solid var(--line);padding:6px;text-align:left;vertical-align:top}
+.restored-video{max-width:640px;margin:12px 0 20px}
+.restored-video.missing{padding:10px 14px;background:#eee;color:#555;font-size:13px}
+a.restored-video{display:block;overflow:hidden;color:#fff;text-decoration:none;background:#111;border-radius:4px}
+a.restored-video img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;margin:0}
+a.restored-video .play{display:block;padding:10px 14px;font-weight:600;font-size:15px;line-height:1.35;color:#fff}
+a.restored-video .play small{display:block;font-weight:400;opacity:.75}
+a.restored-video:hover .play{text-decoration:underline}
+</style></head>
+<body>
+<header class="site-head"><div class="wrap">
+<a class="brand" href="index.html">Adam Curtis</a><span class="sub">BBC blog archive, 2009-2016</span></div></header>
+<main class="wrap">
+<article class="post" id="2011-10-30-dreamon"><h1>DREAM ON</h1><p class="date">Sunday 30 October 2011</p><div class="body"><div class="component prose">
+<p><strong> </strong><strong>HOW<span><span> THE LEFT GOT TRAPPED INSIDE THEIR OWN HEADS - AND HOW FAIRIES CAN OPEN THE DOOR TO THE FUTURE</span></span></strong></p>
+<p>The protest movement that began with Occupy Wall Street is very clear about what it is against - an international capitalism that is cruel, unfair and untenable. But the movement refuses to say what it is for. Much of this refusal comes from a belief that modern capitalist society is extremely skilful at co-opting dissent and that any discussion with the media is the first step in being reabsorbed into 'the system'.</p>
+<p>It also has the added benefit of irritating mainstream journalists and commentators.</p>
+<p>I want to tell an odd, romantic, but ultimately very sad story that shows where this fear of possession on the left comes from. It is set during last the time that British, European and American students tried to be a vanguard for revolution. It shows how that fear can easily lead to a pessimistic belief that all one's dreams for a better future are just illusions - and how that pessimism then came to paralyse the left in Britain throughout the eighties and nineties.</p>
+<p>But the story is not all sad - because I think it shows that the same thing does not have to happen again.</p>
+<p>That just as the ideology of modern capitalism is a choice, not a natural reality - so too is the pessimism of the left.</p>
+<p>The story begins on the evening of June 11th 1968 in a first floor flat in London. There was a party given by a man called Clive Goodwin who was the editor of a radical newspaper called Black Dwarf. He is one of the central figures in this story.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/eafc4cea2814a540de988a5b55fbc2572c8f172e803976d1bfcc9e51a97b8a53.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/a07e905ef549afb3345ec03f6cb6bc89963b0c0848895d80205cab3e2b545a12.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/d39930bc36f040a6d14e14b5bc31317b3bd626dfdc0645ddbd567453221f029b.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/eafc4cea2814a540de988a5b55fbc2572c8f172e803976d1bfcc9e51a97b8a53.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/f94541a99257528d0722c127c665897a80b4eb032c0b398ece511e5641425826.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/1580413ba5b424deb4c6d46c4d006a9f903cd3bd9f2919b8f49fa66698012827.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/823528c8bc180bf57975f95db3f35aa95f78e84b408dccb68ddfa1a5f5721cdd.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/4c75dc34993dcd7b6790db4786630b987a6afe19780ea74fd45949373fff9b13.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/baa75999364014e3b6986c38be4aa28e26edbac7a4116be2e195df393a89526f.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Goodwin's flat was on the Cromwell Road in west London. The next day the BBC were going to record a radio programme called Students in Revolt and they had flown in the leading revolutionary students from all over Europe and America to take part - and Clive had invited them all to a party in this first floor room. It included famous names like Danny Cohn-Bendit the Autonomist revolutionary from the Paris uprising and Rudi Dutschke whose attempted assassination had led to violent riots across Germany.</p>
+<p>The flat is now part of The Fraser Suites - "<em>luxury serviced apartments for our corporate clients</em>".</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/d78f03bbfffcb9751fad07f980420c382a8bae207d55a75ad32eeede015137c2.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/4c9b991b8be70b19f433fbf70ca84c3e2c968e8d6479f5bcbba8d582d21200aa.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/d60ce9dcded36e3b58d0685fd57b631172db0b663931d0e98541a3017621f6a3.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/d78f03bbfffcb9751fad07f980420c382a8bae207d55a75ad32eeede015137c2.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/2b7a519b894c031ec254e2bef9d7eede6dce9f43cc00cc95c6947532bfdd7098.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/d3affa82f55071ebe892029c9aedd56c1fe7709ec0c4d41af9adc90352371f5c.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/d6718f022ef627015b3fefc21a39a080b44f5ffe50f709a793c0615e01befa73.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/7efcc7f7f8efef8128870e056070184becfba5d4341b76c83672135b1fb5d9af.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/60b5b2c90b0a8b1718aa290684f46ab4348e15a95fac4b32e45c3c87312fd1bf.jpeg 1008w"/></div>
+<div class="component prose">
+<p>All the student revolutionaries at the party saw themselves as part of a new kind of left wing radicalism. They were against the the Soviet Union which they saw as just another kind of totalitarian dictatorship. But the big enemy was the United States and its terrifying power. It was killing thousands of Vietnamese civilians in the name of freedom, while its multinational conglomerates were ruthlessly exploiting and devastating the third world to feed Americans with a constant stream of luxury consumer goods.</p>
+<p>This ferocious and destructive consumer-war machine must be overthrown.</p>
+<p>Another guest was the left-wing theatre critic Ken Tynan. He wrote in his diary about a moment at the party:</p>
+<p><em>"The barricades were up in Paris: everyone was talking about 'instant revolution': and when Cohn-Bendit held a question and answer session, I made myself immediately unpopular by asking: 'What's your strategy? What is the next step the students will take?' Cohn-Bendit said impatiently 'the whole point of our revolution is that we do not follow plans. It is a spontaneous permanent revolution. We improvise it. It is like jazz.' Everyone applauded and reproved my carping."</em></p>
+<p>But there was a ghost that haunted the party in the room that night - Clive Goodwin's young and beautiful wife who had died tragically less than two years before. She was a revolutionary painter and collagist called Pauline Boty.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/b375b4efcc95cd90ed518a7fa2e0f483276337635da0bc007635ee8c3a2a3d97.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/61c01821a77b193b0614702fe8b4c7515c89c52ffe34200b5f802f9589b44132.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/44ea9a4ad982c085eebbdd23501e48eedf092582ef080de6c44f811e56f5ccb2.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/b375b4efcc95cd90ed518a7fa2e0f483276337635da0bc007635ee8c3a2a3d97.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/a7636cd53bb66665e91d34d47bf2ab4240b9441a46436d158b2a4f38f2d14ec3.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/f3e1af76a07b3e162afd3cd792a9c58fdd854e0131a26fe0510ec6db9408eacf.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/a59649818d0d707e8e7628678ca9fbcb8767ea98fcee3ac501c4956266809ed9.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/912a45fa2fa41da200b9f50888ec42844369b760c1979cd7627c3901c3f7da58.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/96efaeaea29017340d9e4623687172bbdc96b4e2e22526e4aa13f647fd1e57fe.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Pauline Boty and Clive Goodwin had been at the centre of the student movement as it grew in Britain. But the reason Pauline was like a ghost at the party was not just her death, but because she had come from a tradition of revolt that was beginning to disappear from the movement.</p>
+<p>Because Pauline had loved America. She wasn't frightened of it, she loved the powerful images at the heart of American culture, and the deep emotions the music and films evoked in her.</p>
+<p>Pauline Boty wasn't naive about American power, and she knew those alluring images and sounds could crawl into your brain and shape the way you saw the world, and disguise the underlying exploitation. But she believed that she could possess those images and use her imagination to rework them into something magical, inspiring and liberating.</p>
+<p>Here is one of her paintings that expresses that confidence. It's called The Only Blonde in the World. She painted it in 1963.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/c8dd59a3dafca7867e88ff98f7bb5b1af49db557adfbb0fa580229f4259b1f84.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/f4252bc4c2d91b68dbce72143249ad75c66e563adee04af4d4bf1efbf928cfb7.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/a39e1e5a170206870fe298eb2e688c2e740e60c8b51082e6e721f7a8e4149bbe.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/c8dd59a3dafca7867e88ff98f7bb5b1af49db557adfbb0fa580229f4259b1f84.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/a98d7f314e621923f61fee64a6ff0804987bb7ceaa6780357a0534d459280afb.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/708b6445690637c48d2adb0018f70cd12118455219d8dd94f2704387fd51108b.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/6c8e9e21fa97a1fd0d586319d51756febc490dce0791ae376fff7713418b2929.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/7dc9eb6fc10a735008a1c66a101cec12943f17f770fc0ad30d7556610d6cf503.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/562022e5f8f022e3362669ba585f6730330a8427243a85c63acbca6fea80feeb.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Pauline had gone to study at the Royal College of Art in London in 1958 and had become one of the leaders of a new art movement. Here is the movement described by The Listener magazine in 1962</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/0d631e52175b26506facb92fb610a8a5cb6c6aa071b283c9dab8b7a5d3b6f793.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/ecb0ddb040f5fdcd78e30317503896678bce4ced3b9fdfd060582c28e4ff4af3.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/d9812c73a44a8e28498947cfa4d8084f998b2c4856d2fa72596833fa03ba3acb.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/0d631e52175b26506facb92fb610a8a5cb6c6aa071b283c9dab8b7a5d3b6f793.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/b79d7005ea3838604c53317a7373f8c935323517cec7ec850093ce67866e34fc.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/ef98a86b690eb320ccd8ece5391b07df56332bd28d894cc0093c5a5ceb140e30.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/861f34f277f6ac336d9c2e1691e9fbf3ce2651f44293ad137eb82fe4f142e039.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/481dc0c955b5ad177336c7868d295f5989423081eaf70fede8e23b7cf211d6cd.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/148414c6ffe65f0efa03ad4571d40f9eaad31924f23620c503d2733d04ba3a0d.jpeg 1008w"/></div>
+<div class="component prose">
+<p>In 1964 the BBC made a film about this movement. It was called <em>Pop Goes the Easel</em> and was directed by Ken Russell.It focussed on four artists but he two stars of the film were Pauline Boty and her best friend Derek Boshier.</p>
+<p>Here are two sections about them. First is Boshier - he brilliantly describes how popular images of American power seduce the mind - they start to "infiltrate you at the breakfast table". But one shouldn't be frightened because it is possible to possess those images in turn.</p>
+<p>Then there is Pauline Boty - her bit begins with a wonderful piece of film-making - where she is the girl running away.</p>
+<p>Ken Russell's production notes for the film say that "<em>the authoritative woman in the wheelchair, should be someone representing authority, hideously formal</em>". While the three girls around her "<em>need to look as though they represent an institution</em>."</p>
+<p>And Pauline should play "<em>herself - an art student resenting authority</em>"</p>
+<p>The first shots in the film are of all four artists together - they were all friends - the other two are Peter Blake and Peter Phillips. It is beautifully shot, and the song is <em>Goodbye Cruel World</em> by James Darren.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhpml" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02cctzt.jpg"/><span class="play">▶ Watch on BBC: Extracts from BBC documentary 'Pop Goes the Easel'<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>Then the growing student movement found a political philosopher who would become their inspiration and guide. He was called Herbert Marcuse.</p>
+<p>Marcuse was going to have a powerful and very complicated effect on the student revolutionaries. On the one hand his ideas explained the fascination that people like Pauline Boty had for the images of American power - but he also questioned whether it was ever possible to control or transcend them.</p>
+<p>Marcuse said that you could never break the spell. That however much you took American culture and played rebelliously with it, you would always remain possessed by it. But this would set in motion a terrible logic within the New Left that would lead to a creeping distrust of all dreams of the future.</p>
+<p>Here is Marcuse surrounded by lots of revolutionary students at the "Free University" in Berlin.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/5a0c2e6ec253ad7456787cf8f38a054e343b523b840511f8d78d6be81023c79a.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/c579ffb6d17154da55ff36313c9b68ee303e90e9780415f1b80a60ccd83419d8.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/ceeb90fc4289ccfdcb4284048adf76c70315d366069dbe3a3f973d4700c9361e.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/5a0c2e6ec253ad7456787cf8f38a054e343b523b840511f8d78d6be81023c79a.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/66f80bba85c602eb80147dfa8dfec5beb478635418e55171b5331bb7e531e236.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/a6e725a748d49624c5ee23c8bf512d771fe5db9dba256e23fd49026e543357f9.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/cb0f08c274381a8e9dba38454d7626ad8b73251d857a4c56817db424852e4276.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/3dd28f0396e9104ee3a0e5c9f1bb63731c1789dfb3a75fa83bdc57d2cc61995c.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/227ef98c8119abc17f88d1399ee693cfa33821db13de311f390096ebb1168b55.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Marcuse first became famous with a book called Eros and Civilization. In it he reached back to utopian socialist ideas beyond the dead hand of Marxism and communism - to long-forgotten names like Charles Fourier.</p>
+<p>Fourier had said that love and sex could be the motors for a truly free society. It was only the coercive mechanisms of "reason" and "duty" that repressed and distorted these desires in human beings.</p>
+<p>Marcuse imagined a future in which individuals would be liberated both from the fetters of capitalism and from the repression of their true instincts. It was an optimistic vision - and people like Pauline Boty who truly expressed their desires in art and in love were like creatures in this new world.</p>
+<p>But then in 1964 Marcuse became pessimistic. He wrote another book called One Dimensional Man. He had realised, he said, that capitalist society was far more manipulative than he had imagined. It had learnt how to take those desires and feed the masses spurious, addictive pleasures that enslaved them.</p>
+<p>This wasn't liberation - it was a dark world of what looked on the surface like an entrancing modern culture in which sex was discussed and portrayed openly, but really it was all cheap gratifications and stupefying pleasures that blotted out true human needs.</p>
+<p>Here is Marcuse on television explaining how human beings are enmeshed in this new psycho-technical power structure. Even the grand progressive dreams of the Enlightenment have been appropriated, he says, and used not for liberating human beings but for repression.</p>
+<p>Marcuse was part of what was called the Frankfurt School of political philosophy.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhplm" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02cctzc.jpg"/><span class="play">▶ Watch on BBC: Extracts from BBC interview with Herbert Marcuse<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>Marcuse gripped the student left because he describe the revolution in a completely new way. The struggle was in your heads as much as in the streets.</p>
+<p>Capitalism had seized control of the inner desires and feelings of their workers and were manipulating it at will. It was summed up in a slogan - <em>There is a Policeman Inside All Our Heads. He must be Destroyed</em>.</p>
+<p>This meant, Marcuse said, that you couldn't look to the workers to start the revolution - instead it would be led by three groups on the margins.</p>
+<p>Number one were the alienated black underclass. Because capitalists didn't bother to manipulate their desires</p>
+<p>Number two were the exploited workers of the third world. Ditto.</p>
+<p>And number three were the students in the west. Because they had the power to see through the false consciousness.</p>
+<p>By the mid 1960s two of the leading members in London of this new rebirth of left wing politics were Pauline Boty and her husband Clive Goodwin.</p>
+<p>Clive Goodwin was a working class boy from Kensal Rise in North London. In the 1950s he became an actor - and then he started a magazine about the theatre called Encore, working with people like Vanessa Redgrave and Kenneth Tynan. This took him into the early New Left that was growing up in the publishing world and he soon became an influential figure who helped fuse avant-garde theatre with revolutionary politics.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/5599ea354da8e53071c21d78ea879917e1f460a0c479a75acf41c129d2191958.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/c22382ed2c9aa51cfba49c5b63b667be38b80c4dca518ac8b49cc5f13154b801.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/5666ad7355b4fea63166bfe07df13d5f4ab02fc565c4e0653603efbc346c83cb.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/5599ea354da8e53071c21d78ea879917e1f460a0c479a75acf41c129d2191958.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/b52892792209469f7d2407bf3379025afe8316a899e8780a1a9e3e5835ef7e15.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/495d3e5e19eb55afee90254de49998cb91f14e4844d0ff34c3a0196df3ddabb4.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/278549f7bc185d8d4c3cad5ae07a2c2a3f6980fb5a91764f0e6fa65ebb0bf97c.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/483f3ed3cd90c92a5b0a39fbd2def1dedab39ff5341969809aa05ed750497efa.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/495e729e8117564fd1b527d7833a02872935f8aa697788ddc13f4a4a138ceb10.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Then Clive became part of the modern media world. He presented a youth programme called That's For Me on ITV which mixed politics and culture. And he received the highest accolade when Ken Russell chose him to act in what was seen as an extraordinary breakthrough film for the BBC - called Dante's Inferno.</p>
+<p>It's the story of the pre-Raphaelite brotherhood. But Russell self-consciously dramatised it to echo the student revolution that was happening all over the west in the mid-60s. Dante Gabriel Rossetti was played by Oliver Reed, but Ken Russell chose the elite political and cultural avant-garde of London to play the group of "student idealists" gathered around Rossetti. And he asked Clive Goodwin to play John Ruskin.</p>
+<p>Here are some extracts - beginning with the start of the film that makes the revolutionary parallels clear, followed by Clive Goodwin appearing as Ruskin. And then Oliver Reed going demented, plus some totally brilliant melodramatic film making. The style is of its time but it is still wonderful. And it wasn't just style, they really did think that this was the way to break through the rigid way people saw the world.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhpnk" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv00.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC Omnibus 'Dante's Inferno'<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>And then one morning when he was walking with Kenneth Tynan, Clive Goodwin met Pauline Boty. Ten days later they were married.</p>
+<p>In a wonderful and brilliant biography of Boty - but as yet unpublished (someone should publish it) - the writer Adam Smith describes how Boty had been in a tragic love affair with a married television producer. Boty wanted to marry her lover but she began to realise that this was never going to happen. Adam Smith has unearthed fantastic material that shows how Boty by this time was emerging as one of the early feminists - writing and presenting sardonic monologues on "that cold, cardigan-clad, sexless ghost known to the world as The English Gentlewoman" for BBC Radio.</p>
+<p>But she was also very honestly aware of the ambiguities that emerge when the deep emotions of love and desire get mixed up with trying to be an independent person. Smith has found an interview Boty gave to the writer Nell Dunn for a book called Talking To Women. Pauline describes bluntly why she got married.</p>
+<p>"<em>I got married under very extraordinary circumstances, very odd. I mean - I was very heavily involved with someone who was married and I never really quite believed anything he said, even though probably a lot of it might have been true but I never sort of have confidence that people love me. I know people love people at moments you know, and very genuinely - I can't believe that someone can love someone consistently.</em></p>
+<p><em>One of the awful things about being in a situation with a married man is that you're kind of sitting in your little box of a room waiting for a phone call, and then every now and then they go up to this box and lift the lid and take you out and it's lovely, you know. And I hate that kind of inactive thing. I can't stand it, and it just got to a peak. And then I met Clive and I just got on terribly well with him, we got stoned all the time and I only knew him ten days before and he was the very first man I met who really liked women, for one thing - a terribly rare thing in a man.</em></p>
+<p><em>I mean he was the first man I could talk to very freely to but I didn't like him at all at first. But he was the first man who made me laugh quite sort of sincerely over the telephone because I'm terrible about the telephone, I don't like the telephone at all</em>"</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/eea92ceed52a4402e7c1e67108f84b85de68cf65e3612ee7c8c57f84eee99bd9.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/9f0b42d490d33ff508f93d2c451a282bc24d10a37233957ed632d6e10677ac68.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/a390a9f5ca4dfb35c1bca8fff9caaf8934d810632b2d8f33c99cbff017f7c312.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/eea92ceed52a4402e7c1e67108f84b85de68cf65e3612ee7c8c57f84eee99bd9.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/af562042266fb29dcd61ba8ed3c9203260d03073a90f343eb1dbbdadb1c382ed.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/e236acfe96bc629388827d70988db2341aa0b5f82d9bf9359ccbc994b4ce3a45.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/6c4994918bde68e1d4078f29481bc0cdef0a065fa1a55639c0c6d5c7ab8a462d.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/98e6e4ab2a0f9d54df2a488f4207f14b9e380718bca72af20e2cf6ed93850d20.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/5226a4ed38f49fad4e8f5572603397bcd46c695387e6a846dd67595d6c8ff7cd.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Kenneth Tynan said that Boty was very sharp, very quick and very honest.</p>
+<p>And Pauline too became part of the London revolutionary scene. Here is a great bit of her appearing in yet another Ken Russell film - this time the story of the Hungarian composer Bela Bartok. It illustrates Bartok's ballet The Miraculous Mandarin' which was banned throughout Europe in 1919.</p>
+<p>Again the revolutionary parallels are made clear. The scene from the Miraculous Mandarin is set in the London of the 1960s intercut with the repression of revolution in Germany and Austria in the 1920s. Pauline plays a prostitute whose job is to lure a man to be beaten and killed by shadowy forces. Corrupted sex and state violence are all part of repression.</p>
+<p>The painting you glimpse in the background is one of Boty's, called Colour Me Gone. Good title.</p>
+<p>And I think Mr Russell had been watching too much Jean Luc Godard.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhpqf" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv09.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC documentary on Bela Bartok<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>In 1965 Pauline Boty became pregnant. But early in the pregnancy an ante natal check revealed that she had a form of lymphatic cancer.</p>
+<p>She was determined not to have an abortion - and continued the pregnancy. One story says that Boty was determined to beat the illness through radiotherapy. Another says that she refused aggressive therapy in order to save her unborn child.</p>
+<p>The baby was born in February 1966 and was named Boty Goodwin.</p>
+<p>But Pauline's cancer continued to get worse and on July the 1st 1966 she died in the Royal Marsden hospital.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhrmw" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv5q.jpg"/><span class="play">▶ Watch on BBC: Pauline Boty BBC short clips<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>Exactly a year later Herbert Marcuse gave a speech in Berlin which he entitled "The End of Utopia". He didn't mean, Marcuse said, that utopia was impossible - in fact it was the reverse, human beings now had the technical and scientific means to achieve what had only once been dreamed of. Today it was no longer a utopia - it was a real possibility.</p>
+<p>But then he asked the depressing question. Why weren't the masses rising up and seizing the means of achieving this? Marcuse's answer was simple - literally everyone in society was conspiring against it. Or as he put it: 'the total mobilization of existing society against its own potential for liberation'. Which simply meant - everyone's minds had been possessed.</p>
+<p>At the end of the lecture a student got up and asked the first question: " <em>To what extent do you see in the English pop movement a positive point of departure for an aesthetic-erotic way of life?"</em></p>
+<p>Marcuse answered: "<em>As you may know, of the many things I am reproached with, I have supposedly asserted that today the movement of student opposition in itself can make the revolution. Far be it from me to assert such a thing. The groups you have mentioned are characteristic of a state of disintegration within the system, which as a mere phenomenon has no revolutionary force whatsoever but which perhaps at some time will be able to play it role in connection with other, much stronger objective forces."</em></p>
+<p>In revolutionary terms this was a big put-down of the student movement. They thought that Marcuse had told them they would be the vanguard - but now he was denying he had ever said such a thing.</p>
+<p>A very clever BBC journalist had also spotted the growing absurd direction the student movement was taking as is pursued the ideas it thought it had taken from Marcuse.</p>
+<p>He was called James Mossman - and in 1968 he made a brilliant film which used a fly on the wall technique to watch the British student revolutionaries as they tried to liberate the workers from their false consciousness.</p>
+<p>It is not nasty, but Mossman turns it into a subtle British comedy. The bit at the occupation of the Hornsey College of Art is just wonderful. While Paris students were rioting and confronting the might of the French state, the British students take over their art college. And without realising it they start to copy the enemy - the women make the tea and run the switchboard while all the men sit round talking to Mossman about 'kicking the police horses' bottoms'.</p>
+<p>The film also has shots of the office a new radical newspaper that Clive Goodwin had founded called Black Dwarf.</p>
+<p>And the quote from the student at the end about how people have been brainwashed is very funny. "<em>I mean their whole mind is, you know, like a cabbage, they can't do exactly what they want</em>". Marcuse couldn't have put it better</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhqqq" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv1z.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC documentary 'The New Radicals'<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>There was a growing sense of despair among the British revolutionaries. And Marcuse's explanation - that everyone's minds had been possessed - now began to work a curious logic,  because it seemed to make capitalism even more powerful in the minds of the revolutionaries. Capitalism became for them a devilish force that could take any authentic part of human experience and turn it into a tool of psychological manipulation. Nothing was safe - not even what you dreamt of inside your own heads.</p>
+<p>The most dramatic and brilliant expression of this growing pessimism came in 1968 with a made-for-TV play on the BBC called "The Year of the Sex Olympics"</p>
+<p>It was written by Nigel Kneale who had also written the Quatermass science fiction films. The Year of the Sex Olympics is set in the future in a society where television had become the central means of pacifying the masses by showing them live sex - while the audience watched passively in a drugged state.</p>
+<p>But one of the TV elite, Nat, realises that this is bad and decides that he is going to smash through this illusion with real emotions - that will then awaken the masses from their one-dimensional lives. But he hasn't reckoned on the ability of those who run the "media-complex" to take that revolutionary reality and twist it and use it to intensify their control.</p>
+<p>Nat suggests a new programme called The Live Life Show. He and a woman who also has seen through the illusion will go to a remote island and live a "real" life. Cameras will watch them 24 hours a day. Nat believes that what the audience see will punch through the manufactured "apathy" and re-energise them.</p>
+<p>But soon their child falls ill, then they find there is a psychopath on the island.  The audience watch in their millions - but not in the way Nat hopes.</p>
+<p>The play is wonderfully kitsch. Leonard Rossiter plays the devilish "controller" - "no more tensions, just cool". And I particularly like the upmarket TV programme for the more discerning viewer - "Artsex". While the controller's nasty sidekick has some great lines - "They think the show's over, but now it gets super-king".</p>
+<p>It is a perfect expression of the paranoia that was beginning to seep into the left at the end of the 1960s - and it also brilliantly prefigures Big Brother by thirty years.</p>
+<p>It was originally transmitted in colour - but this is a black and white recording, it is all that remains.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhqpz" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv1q.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC drama "The Year of the Sex Olympics"<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>By the end of the 1960s the independent left wing revolutionaries like Clive Goodwin began to despair. The movement was being taken over by dull, lifeless theoreticians. But there was one hope left for the revolution - it was the marginalised and alienated blacks that Marcuse had said were the other vanguard.</p>
+<p>Goodwin turned to writing about charismatic Black Power leaders like Stokely Carmichael and Bobby Seale in his Black Dwarf newspaper. And in Britain a charismatic leader of black radicalism emerged called Michael Malik. He consciously modelled himself on Malcolm X - and set out to challenge  the hypocrisies of white power and expose the inequalities its supremacy was built on.</p>
+<p>Michael Malik renamed himself Michael X and became a media star in the late 1960s in Britain. Here he is challenging a very smug representative of  the white establishment on the BBC in 1970.</p>
+<p>His organisation was called the Radical Adjustment Action Society - RAAS for short.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhps2" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv0z.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC 'Personal Choice - Malcolm X'<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>But then suddenly that dream also fell apart - and in a catastrophic and horrific way.</p>
+<p>In 1971 it was revealed that Michael X had ordered the murder of a young white student. It was only the beginning of an extraordinary set of revelations - that showed Michael X had used money given to him by white middle class leftists to build what was effectively a gangster empire that ran drugs and killed anyone that got in the way. That his claims of building a revolutionary organisation had been a complete fraud.</p>
+<p>A BBC then made a very powerful film that exposed Michael X and how he had conned the revolutionary left in Britain. It is a fantastic piece of journalism and also shines a harsh light onto the strange and rather desperate relationship between the children of the rich middle classes in London and their idol - Michael X - the last hope of true revolution.</p>
+<p>The film is a cruel but very accurate expose of their delusions - told in parts like a thriller. I have put up a long extract from it because of all the fantastic twists and turns in the story and the extraordinary range of characters - that even includes Diana Athill, a legendary London literary figure. And it ends with Michael X behaving like a Werner Herzog hero - fleeing into the remote jungle - and we follow his track. It's an amazing forgotten story.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhpp7" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv05.jpg"/><span class="play">▶ Watch on BBC: Extracts from BBC documentary 'The Story of Michael X'<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>It was the final nail. The white left-wingers argued that this criminality was the result of capitalist oppression because it distorted and corrupted people like Michael X. But these excuses only served to make capitalism seem even more powerful and unchallengeable.</p>
+<p>By now Clive Goodwin had become a successful literary agent - representing playwrights. And in 1973 one of his most famous clients, a playwright called Trevor Griffiths wrote a play called <em>The Party</em> that tore apart the revolutionary dreams of the previous ten years. It caused a sensation when it was put on at the National Theatre.</p>
+<p>It is set one night in a flat in 1968 - the set directions are clear that it was modelled on the sort of flat that Clive Goodwin and Pauline Boty had back then - "<em>SW7 somewhere. Big, white, sunny, rather cool. Hockney and Botys</em>".</p>
+<p>It takes you back to where this story started - in a flat one night in 1968 on the Cromwell Road and a room full of revolutionaries. But instead of sharing their hope and dreams they are now tearing each other apart. One of them is a publisher called Jeremy who is modelled on Clive Goodwin. Then an old Trotskyite called John Tagg brutally dissects the roots of their pessimism as the projection of their narcissism. The implication is that really their type of psycho-sexual liberation is just another form of oppression.</p>
+<p>But then John Tagg turns out to be a brutal and heartless monster. Which means there's no hope at all.</p>
+<p>It's clunky, and its very actor-heavy in its stagieness - but it tells you a lot about where the left had ended up. And Tagg's speech - which I have put in, is very powerful.</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhrzx" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv1c.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC play 'The Party'<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div><div class="component prose">
+<p>In 1977 Clive Goodwin went to Los Angeles with Trevor Griffiths. They were going to see Warren Beatty who wanted to make a film called Reds - about the Russian revolution. The script had been written by Trevor Griffiths.</p>
+<p>One evening Goodwin got a terrible headache. He walked into the lobby of the Beverley Wilshire Hotel and began to vomit. The hotel security took him to the men's room where Goodwin passed out. They were convinced he was drunk. He wasn't staying at the hotel so security called the police who came and handcuffed him, dragged him through the lobby and laid him face down on the pavement.</p>
+<p>They put him in a police cell - and the next morning they found him dead. He hadn't been drunk, he had suffered a brain haemorrhage.</p>
+<p>To many of his friends on the left it showed just how brutal and uncaring a society America really was - underneath the veneer of dreams that his wife Pauline Boty had once been so entranced by.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/16629463e00c218f2b00c93dc91eb797886c84378a7865e993fdb74c8e6a8edd.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/bd7669044f8fba9a8310674bd4ccd214309e6455151ee50619cb7229a917766c.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/eb4628c6dd57d4896b169e5aa2c72bc4d2f12723244f28037ab0c5b7901d7c11.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/16629463e00c218f2b00c93dc91eb797886c84378a7865e993fdb74c8e6a8edd.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/f1ad38ae9ab03194d24b17ea0b33594538d510b83a13871b113710d4d5670785.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/098c005f26d4026695aaf5af6efbca0701cf719dfce52d5fdc0c5369f333219a.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/3a9f808bc06fce505046b9d2c52cdc95f5d90f38df1150febb53f915c2976415.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/f8b49558eb4c16e44eec63f60b0abde73bed963babf7a30de343154f461b9c16.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/41894ab4ee26974647dd4e7b0447dcdeeb1e22d76dd749a02d07409f05d7b18b.jpeg 1008w"/></div>
+<div class="component prose">
+<p>And what had begun as an idealistic reinvention of left wing politics in Britain also ended at the very same time with a distrust of all dreams.</p>
+<p>It was the end result of Herbert Marcuse's theories. He had said the capitalist power works by possessing and manipulating the desires inside your own mind. But no-one ever explained how you distinguished between the two kinds of dreams inside your head - the ones that were planted there by evil capitalist fantasy-machines, and the genuine dreams of a new and better future. And if your dreams of a better future failed, and the world didn't change - then maybe they too were just part of the manipulation?</p>
+<p>And as the revolutionary aims of that generation failed, a terrible suspicion began to grow. Maybe all dreams of other worlds were just illusions. And that in turn led them to accept the dreary functionalism of the material world and the utilitarianism of modern economics which simply said that dreams were located in material, physical objects that could then, conveniently for capitalism, be sold for vast amounts of money. And people became increasingly obsessed by their own material form - their bodies.</p>
+<p>The right thing to do now was not to change society, but change yourself. And not what went on inside your head, but simply your Body Mass Index.</p>
+<p>In the early 1990s Pauline Boty's daughter - Boty Goodwin - went to Los Angeles to study art. She was rich because of her mother's estate, but she also felt trapped by her mother's shadow. She started taking heroin, and her studies were disrupted. In 1994 she wrote a letter to her moral tutor:</p>
+<p><em>"I remember the days when keeping thin was a matter of a cup of coffee, a cigarette and a line of coke. I lived off McDonalds and ice cream and kept a steady 120 pounds. Needless to say, not any more. Now I am obsessed. Everywhere I look I see ads from every newsstand. LOOK BETTER NAKED. A SEXY BUTT, SLIM THIGHS, FLAT ABS. WOMEN WHO LOVE SEX AND HOW MEN CAN TELL. Are the two connected? I want to beat up sixteen-year-old girls.</em></p>
+<p><em>Why is that despite an adoring father, an almost nauseatingly 'politically-correct' upbringing, and a feminist historian godmother, the tyranny of beauty still obsesses me so?"</em></p>
+<p>In November 1995 Boty Goodwin died of a heroin overdose.</p>
+<p>The student left in the 1960s had believed that the revolution would start in their heads because that was where capitalist  power exerted its control. But it was a dead end because it led them into a terrible trap - where they became paralysed by the fear of possession.</p>
+<p>As a result they became unable to articulate an inspiring vision of the future and came to distrust their own dreams because they were frightened that they would be immediately appropriated. And that is where much of the left still remain - paralysed by a dark pessimism and a fear of the cynicism of the media around them.</p>
+<p>To really change the world the left needs to go back to the same utopian socialists that Marcuse rediscovered in the 1950s, and the grand romantic visions of other worlds they put forward.</p>
+<p>The one I love most is Charles Fourier who in the 1830s outlined an extraordinary new kind of society based on communities he called Phalanxes.</p>
+<p>Here is an image of a Phalanx.</p>
+<p></p>
+</div>
+<div class="component">
+<img alt="" class="image" sizes="(min-width: 63em) 613px, (min-width: 48.125em) 66.666666666667vw, 100vw" src="https://static.files.bbci.co.uk/webarchive/asset/228180c5c4a075246e13b448b58b30f006074b31ae4b5f374f29173ab4a22062.jpeg" srcset="https://static.files.bbci.co.uk/webarchive/asset/6bfd618d794eda8a513f2733fe21d79102215a3e05cd685db458732964c86dd4.jpeg 80w, https://static.files.bbci.co.uk/webarchive/asset/cac185ddc94c25badce0a3d5c37577e64d6e0447a4807e0079ba434e8716eeb1.jpeg 160w, https://static.files.bbci.co.uk/webarchive/asset/228180c5c4a075246e13b448b58b30f006074b31ae4b5f374f29173ab4a22062.jpeg 320w, https://static.files.bbci.co.uk/webarchive/asset/5bbfabcae4241a5c320e121da88da36d5e4945510525b823e7e6475d2e948653.jpeg 480w, https://static.files.bbci.co.uk/webarchive/asset/e1fec25b6b6b36d1e266e847d4401d96c67968ced2f780416538e43f507996c1.jpeg 640w, https://static.files.bbci.co.uk/webarchive/asset/559e385214b715e0bc84b2b9babf44c89880c9c6fc8d25419f5f14d9cae6fdf7.jpeg 768w, https://static.files.bbci.co.uk/webarchive/asset/c8cf89bfccda819a2d67450ddfda05639082a06b8f086f298ad4a99e0e75e457.jpeg 896w, https://static.files.bbci.co.uk/webarchive/asset/f09f0e55de86e1d5736fa7bf44953c33a4cebc295162b147cfa7e95b5c0909f7.jpeg 1008w"/></div>
+<div class="component prose">
+<p>Fourier had no truck with the idea of changing people. All the different things inside their heads was just what they were like - and you worked with that extraordinary range of human nature and channelled it to create societies in which everyone played a role suited to their nature. His vision is wonderfully optimistic. Even potential murderers are allowed to work off their psychotic impulses - as butchers.</p>
+<p>And at the heart of Fourier's society is the idea of Love - a grand feeling of which sex is just a part. And there were special groups in the Phalanxes whose job was to manage the dynamics of Love. If you had been rejected by someone you loved, a special corps of "fairies" would come immediately and take you away, and cure you of your unhappiness.</p>
+<p>Fourier's romantic innocence seems intensely shocking to us today - because it seems so naive and optimistic. But it is their power to shock us in this way that potentially makes these long-forgotten utopian ideas genuinely revolutionary.</p>
+<p>You may not believe in fairies, but in today's world it's hard to believe in the infallibility of the laws of free-market economics. So which one would you choose?</p>
+</div>
+<div class="component">
+<a class="restored-video" href="https://www.bbc.co.uk/programmes/p00lhpr2" rel="noopener" target="_blank"><img alt="" loading="lazy" src="https://ichef.bbci.co.uk/images/ic/640x360/p02ccv0h.jpg"/><span class="play">▶ Watch on BBC: Extract from BBC documentary featuring Pauline Boty singing Lollipop<small>Plays on bbc.co.uk (opens in a new tab)</small></span></a></div></div></article>
+<nav class="post-nav"><span class="prev"><a href="040 - 2011-10-04 - THE CURSE OF TINA PART TWO.html">&larr; THE CURSE OF TINA PART TWO</a></span><a class="all" href="index.html">All posts</a><span class="next"><a href="recovered/2011-11-03 - THE GHOST OF THE COLONELS.html">THE GHOST OF THE COLONELS &rarr;</a></span></nav>
+</main>
+<footer class="wrap site-foot">Archived copy of Adam Curtis's BBC blog. Text, images and clips &copy; BBC</footer>
+</body></html>
